@@ -1,13 +1,9 @@
-package com.wolt.fissha.restaurantopeninghours;
+package com.wolt.devname.restaurantopeninghours;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
-
-/**
- * Created by Fissha on 26/05/2017.
- */
 
 public class RestaurantProperties {
 
@@ -18,7 +14,6 @@ public class RestaurantProperties {
     private String theSpecialDay;
     private boolean jsonArrayLengthEqOne = false;
     private boolean jsonArrayLengthGrTwo = false;
-
 
 
     public void setJsonArrayLengthEqOne(boolean jsonArrayLengthEqOne){
