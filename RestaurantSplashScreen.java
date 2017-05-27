@@ -1,8 +1,4 @@
-package com.wolt.fissha.restaurantopeninghours;
-
-/**
- * Created by Fissha on 27/05/2017.
- */
+package com.wolt.devname.restaurantopeninghours;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,7 +8,7 @@ import android.os.Handler;
 public class RestaurantSplashScreen extends Activity {
 
     // Splash screen timer
-    private static int SPLASH_TIME_OUT = 5000;
+    private static int SPLASH_TIME_OUT = 4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,15 +17,10 @@ public class RestaurantSplashScreen extends Activity {
 
         new Handler().postDelayed(new Runnable() {
 
-            /*
-             * Showing splash screen with a timer. This will be useful when you
-             * want to show case your app logo / company
-             */
-
             @Override
             public void run() {
 
-                // Starts WoltMainActivity activity
+                // Starts RestaurantMainActivity activity
                 Intent i = new Intent(RestaurantSplashScreen.this, RestaurantMainActivity.class);
                 startActivity(i);
 
