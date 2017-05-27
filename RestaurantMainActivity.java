@@ -1,4 +1,4 @@
-package com.wolt.fissha.restaurantopeninghours;
+package com.wolt.devname.restaurantopeninghours;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
