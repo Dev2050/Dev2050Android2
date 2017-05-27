@@ -1,4 +1,4 @@
-package com.wolt.fissha.restaurantopeninghours;
+package com.wolt.devname.restaurantopeninghours;
 
 import android.content.Context;
 import android.util.Log;
@@ -13,10 +13,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import static android.content.ContentValues.TAG;
-
-/**
- * Created by Fissha on 26/05/2017.
- */
 
 public class RestaurantWorkingHoursParser {
     public RestaurantProperties restaurantProperties;
